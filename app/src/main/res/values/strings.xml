@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mygraduationapp</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="save">Save</string>
+    <string name="empty_favorites">Empty favorites</string>
+    <string name="no_favorites_yet">No favorites yet</string>
+    <string name="add_some_drinks_to_favorites">Add some drinks to your favorites</string>
+    <string name="drink_image">Drink image</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+    <string name="sample_drink_name">Drink</string>
+    <string name="description_goes_here">Description goes here...</string>
+    <string name="ingredients_milk_coffee">Ingredients: milk, coffee</string>
+    <string name="price_4_50">$4.50</string>   <!-- renamed -->
+    <string name="quantity_one">1</string>    <!-- renamed -->
+    <string name="plus_sign">+</string>       <!-- renamed -->
+    <string name="total_4_50">Total: $4.50</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="favorite">Favorite</string>
+    <string name="minus_sign">-</string>      <!-- renamed -->
+    <string name="latte">Latte</string>       <!-- renamed -->
+    <string name="back">lll</string>
+    <string name="coffee_image">uuu</string>
+</resources>
