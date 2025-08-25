@@ -1,4 +1,4 @@
-#BrewBuddy 
+# BrewBuddy 
 is a mobile application that simulates a modern coffee shop ordering experience. It integrates online data (fetched dynamically from the [Fake Coffee API]) with local storage features to create a hybrid app that works both online and offline.
 ---
 ## Branch Strategy
