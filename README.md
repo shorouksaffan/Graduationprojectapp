@@ -96,7 +96,7 @@ The **bridge** between Data (API/DB) and UI.
 
 ---
 
-### Task 2: Base Layouts
+### Task 2: Base Layouts by ***Emad Rabie***
 - `activity_main.xml`  
 - `fragment_home.xml`  
 - `fragment_menu.xml`  
