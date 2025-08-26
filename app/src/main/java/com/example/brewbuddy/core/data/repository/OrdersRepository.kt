@@ -1,5 +1,7 @@
 package com.example.brewbuddy.core.data.repository
 
+import com.example.brewbuddy.core.model.Order
+import com.example.brewbuddy.core.model.OrderItem
 import kotlinx.coroutines.flow.Flow
 
 interface OrdersRepository {
