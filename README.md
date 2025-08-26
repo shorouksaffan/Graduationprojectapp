@@ -130,7 +130,7 @@ The **bridge** between Data (API/DB) and UI.
 
 ---
 
-### Task 6: Features – Dialog + Menu
+### Bahy Mohy - Task 6: Features – Dialog + Menu
 - `feature/dialog/`  
 - `feature/menu/`  
 
