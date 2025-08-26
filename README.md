@@ -123,7 +123,7 @@ The **bridge** between Data (API/DB) and UI.
 
 ---
 
-### Task 5: Navigation + Main
+### Task 5: Navigation + Main "Ahmed Hashem"
 - `menu/bottom_nav_menu.xml`  
 - `navigation/nav_graph.xml`  
 - `MainActivity.kt`  
