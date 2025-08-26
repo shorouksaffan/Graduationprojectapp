@@ -5,6 +5,7 @@ import com.example.brewbuddy.core.data.local.BrewBuddyDatabase
 import com.example.brewbuddy.core.data.local.dao.DrinkCacheDao
 import com.example.brewbuddy.core.data.local.dao.FavoriteDao
 import com.example.brewbuddy.core.data.local.dao.OrderDao
+import com.example.brewbuddy.core.data.remote.ApiManager
 import com.example.brewbuddy.core.prefs.UserPrefs
 import com.example.mygraduationapp.core.util.DispatchersProvider
 import dagger.Module
