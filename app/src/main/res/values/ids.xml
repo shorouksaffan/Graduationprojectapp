@@ -3,4 +3,13 @@
     <item name="btnIncrease" type="id"/>
     <item name="tvTotalPrice" type="id"/>
     <item name="tvItemsCount" type="id"/>
+    <item name="etSearchLayout" type="id">etSearchLayout</item>
+    <item name="etSearch" type="id">etSearch</item>
+    <item name="toggle" type="id">toggle</item>
+    <item name="offer" type="id">offer</item>
+    <item name="chipIced" type="id">chipIced</item>
+    <item name="progress" type="id">progress</item>
+    <item name="tvError" type="id">tvError</item>
+    <item name="rvMenu" type="id">rvMenu</item>
+    <item name="chipHot" type="id">chipHot</item>
 </resources>
