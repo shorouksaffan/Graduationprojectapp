@@ -136,7 +136,7 @@ The **bridge** between Data (API/DB) and UI.
 
 ---
 
-### Task 7: Features – Favorites + Home
+### Task 7: Features – Favorites + Home -> Mohamed Mostafa
 - `feature/favourites/`  
 - `feature/home/`  
 
