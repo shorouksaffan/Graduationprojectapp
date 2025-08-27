@@ -12,4 +12,5 @@
     <item name="tvError" type="id">tvError</item>
     <item name="rvMenu" type="id">rvMenu</item>
     <item name="chipHot" type="id">chipHot</item>
+    <item name="action_favoritesFragment_to_drinkDetailsFragment" type="id" />
 </resources>
