@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.brewbuddy.R
 import com.example.brewbuddy.core.data.remote.Result
@@ -44,12 +45,16 @@ class HomeFragment : Fragment() {
 
         // Setup RecyclerView + adapter with click
         adapter = RecommendationAdapter(mutableListOf()) { drink ->
-            Toast.makeText(requireContext(), "Clicked: ${drink.name}", Toast.LENGTH_SHORT).show()
-            // You can also navigate to detail screen here
+            val bundle = Bundle().apply { putInt("drinkId", drink.id) }
+            findNavController().navigate(
+                R.id.action_homeFragment_to_drinkDetailsFragment,
+                bundle
+            )
         }
         binding.rvRecommendations.layoutManager =
             LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         binding.rvRecommendations.adapter = adapter
+
 
         // Observe drinks from ViewModel
         collectDrinks()
