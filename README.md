@@ -105,7 +105,7 @@ The **bridge** between Data (API/DB) and UI.
 
 ---
 
-### Task 3: RecyclerView Items
+### Task 3: RecyclerView Items by ***Mohamed Ashraf***
 - `item_coffee.xml`  
 - `item_drink.xml`  
 - `item_favorite.xml`  
