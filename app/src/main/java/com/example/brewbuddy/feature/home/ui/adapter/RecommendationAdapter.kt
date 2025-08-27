@@ -3,22 +3,30 @@ package com.example.brewbuddy.feature.home.ui.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.brewbuddy.core.data.local.entity.DrinkCacheEntity
+import com.bumptech.glide.Glide
 import com.example.brewbuddy.core.model.Drink
 import com.example.brewbuddy.databinding.ItemRecommendationBinding
 
 class RecommendationAdapter(
-    private val items: MutableList<Drink>
+    private val items: MutableList<Drink>,
+    private val onItemClick: (Drink) -> Unit
 ) : RecyclerView.Adapter<RecommendationAdapter.RecommendationViewHolder>() {
 
     inner class RecommendationViewHolder(
         private val binding: ItemRecommendationBinding
     ) : RecyclerView.ViewHolder(binding.root) {
+
         fun bind(drink: Drink) {
-//            binding.tvRecommendationTitle.text = drink.name
-            // Glide.with(binding.ivRecommendation.context)
-            //     .load(drink.imageUrl)
-            //     .into(binding.ivRecommendation)
+            binding.recoName.text = drink.name
+            binding.recoPrice.text = "$${drink.price}" // format if needed
+
+            Glide.with(binding.recoImage.context)
+                .load(drink.imageUrl)
+                .placeholder(android.R.drawable.ic_menu_gallery)
+                .into(binding.recoImage)
+
+            // Handle click
+            binding.root.setOnClickListener { onItemClick(drink) }
         }
     }
 
@@ -41,4 +49,3 @@ class RecommendationAdapter(
         notifyDataSetChanged()
     }
 }
-

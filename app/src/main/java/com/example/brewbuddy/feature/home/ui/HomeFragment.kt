@@ -42,8 +42,11 @@ class HomeFragment : Fragment() {
 
         binding.tvGreeting.text = getString(R.string.good_day_emad_rabie)
 
-        // Setup RecyclerView
-        adapter = RecommendationAdapter(mutableListOf())
+        // Setup RecyclerView + adapter with click
+        adapter = RecommendationAdapter(mutableListOf()) { drink ->
+            Toast.makeText(requireContext(), "Clicked: ${drink.name}", Toast.LENGTH_SHORT).show()
+            // You can also navigate to detail screen here
+        }
         binding.rvRecommendations.layoutManager =
             LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         binding.rvRecommendations.adapter = adapter
@@ -51,19 +54,16 @@ class HomeFragment : Fragment() {
         // Observe drinks from ViewModel
         collectDrinks()
 
-        // Example clicks
+        // Example clicks for other UI elements
         binding.iconGroup.setOnClickListener {
             Toast.makeText(requireContext(), "Menu clicked", Toast.LENGTH_SHORT).show()
         }
-
         binding.icBell.setOnClickListener {
             Toast.makeText(requireContext(), "Notifications clicked", Toast.LENGTH_SHORT).show()
         }
-
         binding.cvBestSeller.setOnClickListener {
             Toast.makeText(requireContext(), "Best seller clicked", Toast.LENGTH_SHORT).show()
         }
-
         binding.cvNewMenu.setOnClickListener {
             Toast.makeText(requireContext(), "New menu clicked", Toast.LENGTH_SHORT).show()
         }
@@ -85,8 +85,7 @@ class HomeFragment : Fragment() {
                         ).show()
                     }
                     Result.Loading -> {
-                        // could show shimmer/progress bar instead
-                        Toast.makeText(requireContext(), "Loading...", Toast.LENGTH_SHORT).show()
+                        // Could show shimmer/progress bar instead
                     }
                 }
             }
