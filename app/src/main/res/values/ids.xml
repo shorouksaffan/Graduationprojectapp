@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="btnIncrease" type="id"/>
-    <item name="tvTotalPrice" type="id"/>
-    <item name="tvItemsCount" type="id"/>
+    <item name="btnIncrease" type="id" />
+    <item name="tvTotalPrice" type="id" />
+    <item name="tvItemsCount" type="id" />
     <item name="etSearchLayout" type="id">etSearchLayout</item>
     <item name="etSearch" type="id">etSearch</item>
     <item name="toggle" type="id">toggle</item>
