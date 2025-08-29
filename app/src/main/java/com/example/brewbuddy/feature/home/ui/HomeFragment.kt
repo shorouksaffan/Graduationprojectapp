@@ -41,7 +41,6 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.tvGreeting.text = getString(R.string.good_day_emad_rabie)
 
         // Setup RecyclerView + adapter with click
         adapter = RecommendationAdapter(mutableListOf()) { drink ->
@@ -60,12 +59,7 @@ class HomeFragment : Fragment() {
         collectDrinks()
 
         // Example clicks for other UI elements
-        binding.iconGroup.setOnClickListener {
-            Toast.makeText(requireContext(), "Menu clicked", Toast.LENGTH_SHORT).show()
-        }
-        binding.icBell.setOnClickListener {
-            Toast.makeText(requireContext(), "Notifications clicked", Toast.LENGTH_SHORT).show()
-        }
+
         binding.cvBestSeller.setOnClickListener {
             Toast.makeText(requireContext(), "Best seller clicked", Toast.LENGTH_SHORT).show()
         }
