@@ -73,7 +73,7 @@ class MenuFragment : Fragment() {
             repeatOnLifecycle(Lifecycle.State.STARTED) {
                 viewModel.uiState.collect { state ->
                     binding.progress.isVisible = state is MenuUiState.Loading
-//                    binding.emptyState.isVisible = state is MenuUiState.Empty
+
 
                     when (state) {
                         is MenuUiState.Success -> {
@@ -82,8 +82,6 @@ class MenuFragment : Fragment() {
 
                         is MenuUiState.Error -> {
                             adapter.submitList(emptyList())
-//                            binding.emptyState.isVisible = true
-                            // collect events to show Snackbar if you want
                         }
 
                         MenuUiState.Loading,
