@@ -2,6 +2,7 @@ package com.example.brewbuddy.core.data.remote.dto
 
 import com.example.brewbuddy.core.data.local.entity.DrinkCacheEntity
 import com.example.brewbuddy.core.model.Drink
+import com.example.brewbuddy.core.util.PriceCatalog
 
 fun CoffeeDto.toDrinkCacheEntity(isHot: Boolean): DrinkCacheEntity {
     return DrinkCacheEntity(

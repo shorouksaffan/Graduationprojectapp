@@ -9,7 +9,8 @@ import javax.inject.Singleton
 
 @Singleton
 class UserPrefs @Inject constructor(context: Context) {
-    private val sharedPreferences: SharedPreferences = context.getSharedPreferences("user_prefs", MODE_PRIVATE)
+    private val sharedPreferences: SharedPreferences =
+        context.getSharedPreferences("user_prefs", MODE_PRIVATE)
 
     fun saveData(key: String, value: String) {
         sharedPreferences.edit { putString(key, value) }
