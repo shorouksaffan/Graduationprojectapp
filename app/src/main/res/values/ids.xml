@@ -3,4 +3,26 @@
     <item name="btnIncrease" type="id"/>
     <item name="tvTotalPrice" type="id"/>
     <item name="tvItemsCount" type="id"/>
+    <item name="drink_image" type="id"/>
+    <item name="drink_name" type="id"/>
+    <item name="drink_description" type="id"/>
+    <item name="drink_price" type="id"/>
+    <item name="quantity" type="id"/>
+    <item name="btnContinue" type="id"/>
+    <item name="text_layout" type="id"/>
+    <item name="quantity_layout" type="id"/>
+    <item name="progressBar" type="id"/>
+    <item name="btn_buy" type="id"/>
+    <item name="headerImage" type="id"/>
+    <item name="logo_text" type="id"/>
+    <item name="subtitle" type="id"/>
+    <item name="nameCard" type="id"/>
+    <item name="editTextName" type="id"/>
+    <item name="bottomImages" type="id"/>
+    <item name="btn_back" type="id"/>
+    <item name="btn_cart" type="id"/>
+
+
+
+
 </resources>
