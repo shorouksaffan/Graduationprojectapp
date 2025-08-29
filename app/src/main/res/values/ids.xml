@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="btnIncrease" type="id"/>
-    <item name="tvTotalPrice" type="id"/>
-    <item name="tvItemsCount" type="id"/>
-    <item name="drink_image" type="id"/>
-    <item name="drink_name" type="id"/>
-    <item name="drink_description" type="id"/>
-    <item name="drink_price" type="id"/>
-    <item name="quantity" type="id"/>
-    <item name="btnContinue" type="id"/>
-    <item name="text_layout" type="id"/>
-    <item name="quantity_layout" type="id"/>
-    <item name="progressBar" type="id"/>
-    <item name="btn_buy" type="id"/>
-    <item name="headerImage" type="id"/>
-    <item name="logo_text" type="id"/>
-    <item name="subtitle" type="id"/>
-    <item name="nameCard" type="id"/>
-    <item name="editTextName" type="id"/>
-    <item name="bottomImages" type="id"/>
-    <item name="btn_back" type="id"/>
-    <item name="btn_cart" type="id"/>
-
-
-
-
+    <item name="btnIncrease" type="id" />
+    <item name="tvTotalPrice" type="id" />
+    <item name="tvItemsCount" type="id" />
+    <item name="etSearchLayout" type="id">etSearchLayout</item>
+    <item name="etSearch" type="id">etSearch</item>
+    <item name="toggle" type="id">toggle</item>
+    <item name="offer" type="id">offer</item>
+    <item name="chipIced" type="id">chipIced</item>
+    <item name="progress" type="id">progress</item>
+    <item name="tvError" type="id">tvError</item>
+    <item name="rvMenu" type="id">rvMenu</item>
+    <item name="chipHot" type="id">chipHot</item>
+    <item name="action_favoritesFragment_to_drinkDetailsFragment" type="id" />
+    <item name="action_homeFragment_to_drinkDetailsFragment" type="id">
+        action_homeFragment_to_drinkDetailsFragment
+    </item>
 </resources>

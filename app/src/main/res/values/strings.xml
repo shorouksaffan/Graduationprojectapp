@@ -20,6 +20,13 @@
     <string name="latte">Latte</string>       <!-- renamed -->
     <string name="back">lll</string>
     <string name="coffee_image">uuu</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="orders">Orders</string>
+    <string name="favorites">Favorites</string>
+    <string name="title">Title</string>
+    <string name="rp_20_000">Rp 20.000</string>
+    <string name="good_day_emad_rabie">Good day, Emad Rabie</string>
 </resources>
